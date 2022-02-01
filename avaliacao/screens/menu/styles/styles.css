@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 150px;
+  width: 100%;
+
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  height: 789px;
+  width: 100%;
+}
+
+.card-service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+  width: 33.3%;
+  margin: 0;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+
+  font-size: 100px;
+  color: aliceblue;
+
+  text-decoration: none;
+}
+
+.employee-title {
+  font-size: 60px;
+}
+
+.gringo-bills-card {
+  background-image: url("../../../assets/empresario.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: black inset 0px 0px 1000px 100px;
+}
+
+.employee-management-card {
+  background-image: url("../../../assets/gestora-rh.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: black inset 0px 0px 1000px 100px;
+}
+
+.health-care-service {
+  background-image: url("../../../assets/nutricionista.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  box-shadow: black inset 0px 0px 1000px 100px;
+}
